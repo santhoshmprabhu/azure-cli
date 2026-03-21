@@ -13039,7 +13039,7 @@ spec:
         create_cmd = (
             "aks create --resource-group={resource_group} --name={name} --location={location} "
             "--ssh-key-value={ssh_key_value} --node-count=1 --tier standard "
-            "--network-plugin azure --network-plugin-mode overlay --enable-acns "
+            "--network-plugin azure --network-plugin-mode overlay  --enable-acns "
         )
         self.cmd(
             create_cmd,
